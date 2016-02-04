@@ -17,8 +17,11 @@
 }
 
 @media only screen and (max-width: 767px).mobile nav{
+	.column{
 	display: block;
-	width: 100%;
+	width: 80%;
+	margin: auto;
+	}
 }
 
 /*  Main Content of Form */
@@ -34,7 +37,7 @@ div{
 
 form{
 	margin: 10% 20%;
-	width: 90%;
+	width: 80%;
 }
 
 /*Change these styling elements!*/
@@ -68,7 +71,6 @@ input:hover{
 input{
 	background-color: #54A8C4;
 	border: 2px solid white;
-	max-width: 100%;
 }
 
 /*input ::placeholder{
@@ -85,20 +87,23 @@ textarea{
 	display: inline-block;
 	vertical-align: top;
 	max-width: 100%;
-
 }
 
-.left-side{
-	background: salmon;
-	width: 66%;
-	font-size: 0;
+.left{
+	background: #54A8C4;
+	/*width: 33%;*/
+	/*font-size: 0;*/
 }
 
-.left-side h1{
-	background: seagreen;
+.middle{
+	/*width: 33%;*/
 }
 
-.right-side{
-	background: lightsteelblue;
-	width: 33%;
+.left h1{
+	background: #54A8C4;
+}
+
+.right{
+	background: #54A8C4;
+	/*width: 33%;*/
 }
