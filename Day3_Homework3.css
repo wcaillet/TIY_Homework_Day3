@@ -1,0 +1,104 @@
+/* General Styles */
+
+* {
+	box-sizing: border-box;
+	font-family: Arial;
+}
+
+.align-children{
+	font-size: 0;
+	color: white;
+}
+
+.align-children > *{
+	font-size: medium;
+	display: inline-block;
+	vertical-align: top;
+}
+
+@media only screen and (max-width: 767px).mobile nav{
+	display: block;
+	width: 100%;
+}
+
+/*  Main Content of Form */
+
+div{
+	margin: auto;
+}
+
+.container{
+	background-color: #54A8C4;
+	width: 80%;
+}
+
+form{
+	margin: 10% 20%;
+	width: 90%;
+}
+
+/*Change these styling elements!*/
+.firstOption{
+	color: white;
+}
+
+input, select, textarea{
+    color: white;
+    width: 100%;
+    margin-bottom: 1.5em;
+
+}
+
+textarea:focus, input:focus {
+    color: white;
+}
+
+select{
+  outline: none;
+  border: 1px solid grey;
+  background-color: #54A8C4;
+  color: #4078c0 ;
+}
+
+input:hover{
+  border: 2px solid #4078c0;
+  color: white;
+}
+
+input{
+	background-color: #54A8C4;
+	border: 2px solid white;
+	max-width: 100%;
+}
+
+/*input ::placeholder{
+	color: blue;
+}*/
+
+textarea{
+	background-color: #54A8C4;
+	border: 2px solid white;
+	color: white;
+}
+
+.column{
+	display: inline-block;
+	vertical-align: top;
+	max-width: 100%;
+
+}
+
+.left-side{
+	background: salmon;
+	width: 66%;
+	font-size: 0;
+}
+
+.left-side h1{
+	background: seagreen;
+}
+
+.right-side{
+	background: lightsteelblue;
+	width: 33%;
+}
